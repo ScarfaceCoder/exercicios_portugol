@@ -1,0 +1,23 @@
+// exercicio 08 
+
+programa {
+
+	funcao inicio() {
+	  
+	  // criando as variaveis: 
+	  real horas, minutos, minutos_passados 
+  
+	  //recebendo os valores nas variaveis: 
+	  escreva ("Digite a hora (0-23): ")
+	  leia (horas)
+	  escreva ("Digite os minutos (0-59): ")
+	  leia (minutos)
+  
+	  //realizando o calculo: 
+  
+	  minutos_passados = horas * 60 + minutos
+  
+	  escreva ("Passaram-se " + minutos_passados + " minutos desde o início do dia.") 
+  
+	}
+  }

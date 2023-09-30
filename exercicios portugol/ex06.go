@@ -1,0 +1,22 @@
+//exercicio 06
+
+programa {
+
+	inclua biblioteca Matematica --> mat
+	
+  funcao inicio() {
+  		real a, b, c, resultado, arredondado
+
+escreva ("Informe o comprimento do lado a: ")
+leia(a)
+
+escreva ("Informe o comprimento do lado b:")
+leia(b)
+
+c = (a * a + b * b)
+resultado = mat.raiz(c, 2)
+arredondado = mat.arredondar(resultado, 2)
+
+escreva("O agricultor precisa comprar ", arredondado, " metros de cerca para fechar o triângulo.")
+  }
+}

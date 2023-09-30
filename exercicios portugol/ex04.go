@@ -1,0 +1,22 @@
+// exercicio 04 
+
+programa {
+
+	inclua biblioteca Matematica --> mat
+  
+	funcao inicio() {
+  
+	  real altura
+	  escreva ("Digite o valor da altura: ")
+	  leia (altura)
+  
+	  real raio
+	  escreva ("Digite o valor do raio: ")
+	  leia (raio)
+  
+	  real area_base = 3.14 * raio * raio
+	  real volume_base = area_base * altura
+  
+	  escreva("O valor da area da base é ", area_base, ". E o seu volume é ", volume_base,".")
+	}
+  }

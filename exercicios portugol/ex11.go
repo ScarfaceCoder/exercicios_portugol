@@ -1,0 +1,29 @@
+//exercicio 11
+
+
+programa {
+
+	funcao inicio() {
+	  
+	  inteiro numero1, numero2, soma, subtracao, multiplicacao, divisao, resto_divisao
+  
+	  escreva("Digite o primeiro número inteiro: ")
+	  leia(numero1)
+	  escreva("Digite o segundo número inteiro: ")
+	  leia(numero2)
+  
+	  soma = numero1 + numero2
+	  subtracao = numero1 - numero2
+	  multiplicacao = numero1 * numero2
+  
+	  divisao = numero1 / numero2
+	  resto_divisao = numero1 % numero2
+  
+	  escreva("Soma: ", soma,"\n")
+	  escreva("Subtração: ", subtracao,"\n")
+	  escreva("Multiplicação: ", multiplicacao,"\n")
+	  escreva("Divisão: ", divisao,"\n")
+	  escreva("Resto da divisão: ", resto_divisao,"\n")
+	
+	}
+  }
