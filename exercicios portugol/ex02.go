@@ -8,7 +8,7 @@ programa {
 	  escreva ("Digite o nome do funcionário: ")
 	  leia (nome)
   //criando a variavel e lendo a quantidade de dependentes: 
-	  real dependentes
+	  inteiro dependentes
 	  escreva ("Digite o número de dependentes: ")
 	  leia (dependentes)
   //criando a variavel e lendo o cargo ocupado: 
